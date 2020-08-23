@@ -12,6 +12,8 @@ namespace FUNC_engine
 		void Delay(int delayMs);
 		void RefreshWindow();
 
+		bool ShouldClose();
+
 		void Exit();
 	};
 

@@ -11,15 +11,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FUNC_program.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="EngineCore\FUNC_program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FUNC_program.hpp">
+    <ClInclude Include="EngineCore\FUNC_program.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

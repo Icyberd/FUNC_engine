@@ -33,4 +33,21 @@ namespace FUNC_engine
 
 	void FUNC_program::RefreshWindow() { SDL_UpdateWindowSurface(mWindow); };
 
+	bool FUNC_program::ShouldClose()
+	{
+
+		SDL_Event evnt;
+		SDL_PollEvent(&evnt);
+		switch (evnt.type)
+		{
+		case SDL_QUIT:
+			return true;
+			break;
+		default:
+			return false;
+			break;
+		}
+
+	}
+
 }
